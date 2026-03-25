@@ -1,0 +1,68 @@
+{
+  "n_rows_evaluated": 10000,
+  "settings": {
+    "full_correct": false,
+    "strict_preprocess": true,
+    "unique_safety": true,
+    "batch_size": 512
+  },
+  "metrics": {
+    "original": {
+      "f1_macro": 0.7731802494056782,
+      "accuracy": 0.8404
+    },
+    "noisy": {
+      "f1_macro": 0.7654130541016286,
+      "accuracy": 0.8353
+    },
+    "restored": {
+      "f1_macro": 0.7716614286884053,
+      "accuracy": 0.8411
+    },
+    "safety": {
+      "f1_macro": 0.7720894666473664,
+      "accuracy": 0.8416
+    }
+  },
+  "deltas": {
+    "delta_recovery_f1": 0.006248374586776628,
+    "safety_drop_f1": 0.001090782758311759,
+    "ERR_recovery_pct": 80.44569940862598,
+    "ERR_alt_error_reduction_pct": 2.6635644889991332
+  },
+  "bootstrap": {
+    "n_boot": 1000,
+    "delta_recovery": {
+      "f1_macro": {
+        "delta": 0.006397662994395154,
+        "ci95": [
+          0.00011688416589459305,
+          0.012151025702131451
+        ]
+      },
+      "accuracy": {
+        "delta": 0.005890099999999997,
+        "ci95": [
+          0.0016000000000000458,
+          0.009902500000000017
+        ]
+      }
+    },
+    "safety_delta_safe_minus_clean": {
+      "f1_macro": {
+        "delta": -0.0010247652106535167,
+        "ci95": [
+          -0.004847749305531154,
+          0.0028024811385123473
+        ]
+      },
+      "accuracy": {
+        "delta": 0.0012339000000000007,
+        "ci95": [
+          -0.0011024999999999896,
+          0.0036000000000000476
+        ]
+      }
+    }
+  }
+}
