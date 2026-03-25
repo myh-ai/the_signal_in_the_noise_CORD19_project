@@ -1,0 +1,4 @@
+Model,Accuracy,Macro_F1
+Logistic Regression (Tuned),0.968666667,0.968669619
+Linear SVM (Calibrated),0.9635,0.963507105
+Multinomial NB,0.852666667,0.852741198
