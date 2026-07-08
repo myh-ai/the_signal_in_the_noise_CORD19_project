@@ -2,11 +2,11 @@
 # Application Demo: 🧬 CORD-19 Intelligence Hub  
 **White‑Box Biomedical Spell Repair + Topic Classification (Before/After) + 4‑Run Impact Evaluation**
 
-This project is prepared for the Natural Language Processing (NLP) module in the Master of Artificial Intelligence program at Asia Pacific University (APU).
+This project is prepared for the ICBCB 2026 Conference in Japan. (Accepted & Published)
 
 Prepared by
 
-Moustafa M.M. Hassan 
+Moustafa Yehia Hassan 
 
 
 ---
